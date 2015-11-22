@@ -4,6 +4,11 @@ $(document).ready(function () {
     $(".ul-index-nav-bar a").attr('href', 'product_class.html')
     $(".shopClass_show a").attr('href', 'product_class.html')
 
+
+    $(".logo").click(function () {
+        //.attr('href', 'shop_cart.html')
+        window.location.href = "index.html";
+    });
     $("#shop_cart").click(function () {
         //.attr('href', 'shop_cart.html')
         window.location.href = "shop_cart.html";
