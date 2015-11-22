@@ -1,0 +1,35 @@
+.thumbnail{
+	height: 500px;
+	margin-top:120px;
+	margin-bottom: 0px;
+	
+}
+.login-pic{
+	height: 490px;
+	padding:0px;
+	background-image: url(../images/login.png);
+
+}
+.login-form{
+	height: 490px;
+	padding: 0px;
+	border-left: 1px solid #DDDDDD;
+}
+.login-head{
+	height:70px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+.login-head>ul>li{
+	list-style: none;
+	line-height: 70px;
+	float: left;
+	font-family: "微软雅黑";
+}
+.control-label{
+	
+	font-size: 16px;
+}
+.form-group{
+	font-family:  "微软雅黑";
+}

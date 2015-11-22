@@ -1,0 +1,39 @@
+﻿body {
+}
+.no-padding{
+    padding:0;
+}
+.head-top{
+    padding:20px 0 20px 0;
+}
+.head-bar{
+    background: none repeat scroll 0 0 #383838;
+    border-radius: 6px;
+    padding:0 15px 0 15px;
+}
+.ul-index-bar{
+    list-style:none;
+}
+.ul-index-bar > li{
+    float:left;
+    height:auto;
+     /*padding:16px 20px;*/
+}
+/*.ul-index-bar > li:hover{
+   background:#B81D22;
+}*/
+.ul-index-bar > li > a{
+    text-decoration: none;
+    color:#ffffff;
+    padding:16px 20px;
+    border-right: 2px ridge #585858;
+}
+.ul-index-bar > li > a:hover{
+    background:#B81D22;
+} 
+a.now-page{
+     background:#B81D22;
+}
+.biankuang{
+     border: 1px solid #eee;
+}

@@ -1,0 +1,46 @@
+
+.row-right{
+	border: 1px solid #ddd;
+	margin-top: 12px;
+}
+.line{
+	border-bottom: 2px solid #ddd;
+}
+
+.apply{
+	font-weight: bold;
+	color:#767676;
+}
+.apply-a{
+	font-size: 12px;
+}
+
+.submit{
+	margin-top: 20px;
+}
+.example{
+	margin-left: -100px;
+}
+.request{
+	margin-top: 10px;
+}
+.money{
+	margin-top:17px;
+}
+#idcard{
+    width:100px;
+    height:100px;
+}
+.distance{
+	padding-bottom: 10px;
+	padding-top: 30px;
+	border-top: 1px solid #ddd;
+}
+.rule{
+	font-size: 10px;
+}
+.snow{
+	padding-right: 5px;
+	font-size:15px;
+	color:#E73C31;
+}

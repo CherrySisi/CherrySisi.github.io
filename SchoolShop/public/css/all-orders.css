@@ -1,0 +1,27 @@
+
+.vertical>tbody>tr>td{
+  vertical-align: middle;
+}
+.table img{
+  float: left;
+  margin:10px 0px 10px 20px;
+}
+.table span{
+  margin-left: 70px;
+}
+
+.introduction{
+  float: left;
+  width:130px;
+  overflow: hidden;
+  margin-left: -12px;
+}
+.introduction p{
+  font-size: 12px
+}
+.left{
+	width:140px;
+}
+.no-padding{
+  padding:0px;
+}

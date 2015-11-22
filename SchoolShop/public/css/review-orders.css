@@ -1,0 +1,51 @@
+.no-padding{
+	padding:0px;
+}
+.vertical>tbody>tr>td{
+  vertical-align: middle;
+}
+.table img{
+  float: left;
+  margin:10px 0px 10px 20px;
+  width:117px;
+  height:69px;
+}
+.table span{
+  margin-left: 70px;
+}
+
+.introduction{
+  float: left;
+  width:130px;
+  overflow: hidden;
+  margin-left: -12px;
+}
+.introduction p{
+  font-size: 12px
+}
+.left{
+	width:140px;
+}
+.describle{
+	text-align: center;
+	}
+.star{
+	display: block;
+	margin-left: -40px;
+}
+.star>img{
+	margin:0px;
+	padding-top:2px;
+}
+.judge{
+	display: block;
+	margin-left: -35px;
+}
+.vertical>tbody>tr>td.no-border{
+	border-top:none;
+}
+.btn-judge{
+	display: block;
+	margin-top: -15px;
+	margin-left: 10px;
+}

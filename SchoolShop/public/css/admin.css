@@ -1,0 +1,46 @@
+﻿body {
+}
+.right-bar{
+    padding-right:10px;
+   
+}
+.ul-right-bar{
+     margin-left: -30px;
+}
+.ul-right-bar >li{
+    height:40px;
+    list-style:none;
+    text-align: center;
+}
+.ul-right-bar>li>a{
+    display:block;
+    font-size:20px;
+}
+.ul-right-bar>li>a:hover{
+    color:#ffffff;
+    background-color: #B1191A;
+}
+.search{
+    width:100%;
+}
+.adver-admin{
+    width:100%;
+}
+.shop-logo{
+    width:50px;
+    height:30px;
+}
+.goods-pic{
+    width:50px;
+    height:40px;
+}
+.apply-logo{
+    width:250px;
+    height:150px;
+}
+.complaint-content{
+    width:800px;
+}
+.complaint-name{
+    width:100px;
+}

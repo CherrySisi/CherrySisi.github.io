@@ -1,0 +1,127 @@
+.no-padding{
+	padding:0px;
+}
+.row-right{
+	border: 1px solid #ddd;
+	margin-top: 12px;
+}
+.line{
+	border-bottom: 1px solid #EAEAEA;
+
+}
+.apply{
+	font-weight: bold;
+	color:#767676;
+}
+.apply-a{
+	font-size: 12px;
+}
+.information{
+	margin-top: 20px;
+}
+.example{
+	margin-left: -100px;
+}
+.request{
+	margin-top: 10px;
+}
+.money{
+	margin-top:17px;
+}
+#idcard{
+    width:100px;
+    height:100px;
+}
+.distance{
+	padding-bottom: 10px;
+	padding-top: 30px;
+	border-top: 1px solid #ddd;
+}
+.no-border{
+	border:none;
+}
+.rule{
+	font-size: 10px;
+}
+.snow{
+	padding-right: 5px;
+	font-size: 15px;
+	color:#E73C31;
+}
+.price{
+	margin-left: -70px;
+}
+.input-file{
+	padding-top: 4px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.submit{
+	margin-top: 20px;
+}
+.vertical>tbody>tr>td{
+  vertical-align: middle;
+}
+.vertical>tbody>tr>td>a>img{
+  margin:10px 0px 10px 20px;
+  width:106px;
+  height:106px;
+}
+.vertical>thead>tr>td span{
+  margin-left: 70px;
+}
+
+.introduction{
+  float: left;
+  width:130px;
+  overflow: hidden;
+  margin-left: -12px;
+}
+.introduction>p{
+  font-size: 12px
+}
+.left{
+	width:140px;
+}
+.no-padding{
+  padding:0px;
+}
+.table>thead>tr>td{
+	text-align: center;
+}
+.table>tbody>tr>td{
+	text-align: center;
+}
+.tr-border>tbody>tr>td{
+	border-top: 1px solid #ddd;
+}
+.store{
+	list-style: none;
+}
+.store>li{
+	line-height: 3;
+}
+.store>li>span{
+	display: block;
+	
+}
+.store>li>span>a{
+	font-size: 10px;
+}
+.pro-store{
+	width:150px;
+	height: 10px;
+	margin-top: -68px;
+	margin-left: 85px;
+}
+.star-store{
+	margin-top: -43px;
+	margin-left: 80px;
+}
+.btn-store{
+	margin-bottom: 40px;
+	margin-top: -42px;
+}
+.thumbnail>p{
+    margin-bottom: 0px;
+}

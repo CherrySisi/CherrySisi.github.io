@@ -1,0 +1,36 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding: 0;}
+body{font-size: 12px;}
+img{border:none;}
+li{list-style: none;}
+input,select,textarea{outline: none;border:none;background: none;/*去除了背景色，所以在后面要手动加背景色*/}
+/*表示的是没有周围的轮廓和边框*/
+textarea{resize:none;}
+a{text-decoration: none; color: #656565}
+/*因为在页面中绝大部分链接的颜色都是灰色，所以把连接的颜色设置成灰色*/
+
+/*清浮动*/
+
+.clearfix:after{content:"";display: block;clear: both;}
+.clearfix{zoom:1;}
+.fl{float: left;}
+.fr{float: right;}
+.hide{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

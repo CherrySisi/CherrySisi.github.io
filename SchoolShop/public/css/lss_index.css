@@ -1,0 +1,131 @@
+
+body{
+	font-family:"微软雅黑"；
+}
+a{
+	text-decoration: none;
+}
+a:focus{
+	outline: none;
+	font-family: "微软雅黑"；
+
+}
+
+.wrap{
+	height: 120px;
+	background-color:#F4F5F5;	
+}
+.wrap-head{
+	height: 80px;
+	padding-top: 20px;
+}
+
+.logo-position{
+	height: 60px;
+}
+.position{
+	padding-top: 40px;
+}
+.head-nav{
+	height: 60px;
+}
+.head-nav-box{
+	height:60px;
+	padding-top: 15px;
+	padding-left: 30px;
+}
+.head-nav-personnal{
+	position: relative;
+	left: 13px;
+}
+.menu{
+	height: 1410px;
+
+}
+.wrap-nav{
+	height: 40px;
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 2px solid #E73C31;
+	background-color: #e73c31;
+}
+.nav{
+	height: 40px;
+	margin: 0px auto;
+}
+.nav-ul{
+	 list-style:none;
+	 margin-left: -40px;
+	
+}
+.nav-ul>li{
+	float:left;
+	line-height: 40px;
+	text-align: center;
+	background-color: #e73c31;
+}
+.nav-ul>li>a{
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+}
+.nav-ul>li>a:hover{
+	background-color: #C81623;
+}
+.banner{
+	height: 360px;
+	margin-bottom: 10px;
+	background-color:#DEECFA;
+}
+.recommend{
+	height: 200px;
+	margin:10px 0;
+}
+.recommend-goods-2{
+	border-left:1px solid #fff;
+}
+.store{
+	height: 600px;
+	margin: 10px 0;
+}
+.store-label{	
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+.store-label>label{
+	float: right;
+}
+.store-display{
+	float: left;
+	height: 760px;
+}
+.store-list-business{
+	float: left;
+	height:245px;
+	margin-bottom: 10px;
+	border:1px solid #F4F5F5;
+}
+.store-list-business a:hover{
+	border:2px solid #e73c31;
+}
+.store-name{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.store-show {
+	height: 170px;
+	padding-left: 10px;
+}
+.store-license{
+	height: 35px;
+	padding-top: 5px;
+}
+.footer{
+	height: 200px;
+	margin-top: 20px;
+	border-top: 2px solid #e73c31;
+	background-color: #F5F5F5;
+}
+

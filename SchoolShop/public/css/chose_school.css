@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url(../img/retina_wood.png);
+}
+
+.serch {
+    padding: 200px 0 0 0;
+}
+
+.chose {
+    padding: 13px 5px 18px 15px;
+    font-size: 20px;
+}
+
+.privence {
+    margin: 0 0 0 20px;
+}
+
+.chose-input {
+    padding: 19px 5px 18px 15px;
+    width: 460px;
+}
+.other{
+    line-height: 1.42857;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+
+.btn-serch {
+    padding: 16px 18px 19px 15px;
+    background-color: #FE4D3D;
+    font-size: 20px;
+    line-height: 1.42857;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+
+.school {
+    margin: 20px 0 0 0;
+}
+
+    .school > a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 16px;
+    }

@@ -1,0 +1,235 @@
+﻿<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>同校无忧-商品详情</title>
+    <meta charset="UTF-8" />
+    <link href="public/css/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap-theme.css">
+    <!-- <script type="text/javascript" src="public/js/jquery-1.11.1.js"></script>-->
+    <script type="text/javascript" src="public/js/bootstrap.min.js"></script>
+    <script src="public/js/npm.js"></script>
+    <script src="public/js/product_details.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/product_details.css">
+    <link href="public/css/globle.css" rel="stylesheet" />
+    <script src="public/js/jquery.js"></script>
+    <script src="public/js/jquery.raty.js"></script>
+    <script src="public/js/labs.js"></script>
+    <script src="public/js/product_details.js"></script>
+</head>
+<body>
+    <div class="col-lg-12 head-index-top">
+        <div class=" container">
+            <div class="row">
+                <div class="row-wrap col-lg-12 ">
+                    <div class="col-lg-1">
+                        <a href="index.html"><img src="public/img/logo.png"></a>
+                    </div>
+                    <div class="position col-lg-2 ">
+                        <img src="public/img/position.png">
+                        <a href=""><label>成都大学</label></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="form-inline">
+                            <div class=" col-lg-2 for-inline-select">
+                                <select>
+                                    <option>店铺</option>
+                                    <option>商品</option>
+                                </select>
+                            </div>
+
+                            <div class="col-lg-10 input-group">
+
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                                    <button class="btn  btn-danger" type="submit">搜索</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="col-lg-5 head-nav-box">
+                            <a class="head-nav-personnal" href=""><img src="public/img/personal.png"></a>
+                            <p>
+                                <a href="register.html">登录|</a>
+                                <a href="login.html">注册</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-3 head-nav-box">
+                            <a href=""><img src="public/img/home.png"></a>
+                            <p>
+                                <a href="index.html">主页</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-4 head-nav-box">
+                            <a href=""><img src="public/img/shoppingcart.png"></a>
+                            <p>
+                                <a href="shop-car.html">购物车</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12 index-nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <ul class=" col-lg-12 ul-index-nav-bar">
+                        <li><a href="index.html">主页</a></li>
+                        <li><a href="store.html">店铺</a></li>
+                        <li><a href="goods.html">商品</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 store-poster">
+                <img src="public/images/store-poster1.jpg">
+            </div>
+            <!-- 商品详情介绍 -->
+            <div class=" thumbnail col-lg-12 ">
+                <div class="col-lg-4 product-detail-pic">
+                    <img src="public/images/sp-xq1.png">
+                    <ul class="product-action">
+                        <li><a href="#"><span>收藏</span><img src="public/img/collect.png"> </a></li>
+                        <li><a href="#"><span>分享</span><img src="public/img/share.png"> </a></li>
+                        <li><a href="#"><span>投诉</span><img src="public/img/complain.png"> </a></li>
+                    </ul>
+                </div>
+                <div class="product-detail-desc col-lg-6 ">
+                    <ul>
+                        <li>
+                            <p class="product-name"> ♥超心水 巨好品质 千鸟格 文艺范质感晴雨伞 手动♥自动♥长柄 </p>
+                        </li>
+                        <li>
+                            <span class="now-price">同校价：￥50.00</span>&nbsp   <span class="old-price">￥50.00</span>
+                        </li>
+
+                        <li style="display:none;">
+                            <span>颜色分类：</span> &nbsp <span><button class="btn btn-default">黑白格子</button></span>&nbsp   <span><button class="btn btn-default">千鸟格</button></span>
+                        </li>
+                        <li>
+                            <!--<span>数量：</span>-->
+                            <!--<input  class="btn btn-default" type="button" value="-" id="del" onClick="del()" style="width:30px;" />&nbsp;
+                            <input disabled="disabled" type="text" value="1" id="num" style="width:50px;height:34px">&nbsp;
+                            <input  class="btn btn-default" type="button" value="+" id="add" onClick="add()" style="width:30px;" />-->
+                            <table>
+                                <tr>
+                                    <td class="add-del-num">数量：</td>
+                                    <td width="130px">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon btn-default del"><a id="num-del" class="" href="#">-</a></div>
+                                                <input disabled="disabled" id="exampleInputName2" type="text" class="form-control" value="1">
+                                                <div class="input-group-addon btn-default add"><a id="num-add" class="" href="#">+</a></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="add-del-kucun">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> 库存：123</span></td>
+                                </tr>
+                            </table>
+                        </li>
+                        <li>
+                            <span><a class="btn btn-success" href="shop-car.html">加入购物车</a></span>
+                            <span><a class="btn btn-danger" href="submit_order.html"> &nbsp立即购买</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-store-info col-lg-2 ">
+                    <div class="store-info col-lg-12 ">
+                        <div class="col-lg-5 store-logo">
+                            <img src="public/images/store-logo.png">
+                        </div>
+                        <div class="col-lg-7 store-name">
+                            <h5>海绵宝宝就贪吃</h5>
+                            <p>客服： QQ</p>
+                        </div>
+                        <div class="col-lg-12 ">
+                            <p>
+                                <img src="public/img/ID.png">
+                                <img src="public/img/stuID.png">
+                                <img src="public/img/health.png">
+                                <img src="public/img/business-license.png">
+                            </p>
+                            <ul class="about-storekeeper">
+                                <li>学院：计算机学院</li>
+                                <li>专业：数字媒体技术</li>
+                                <li>班级：12级1班</li>
+                                <li>营业时间：8:00--23:00</li>
+                                <li>注册时间：2015-4-29 </li>
+                                <li><span>服务：4.9</span><span>描述：4.9</span></li>
+                                <li> <a class="btn btn-default" href="store_goods.html"> 进入店铺</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 product-word">
+
+                <div class="col-lg-6 product-word-detail">
+                    <a class="btn btn-lg btn-block btn-danger" id="show-product" href="#show-product">商品详情</a>
+                </div>
+                <div class="col-lg-6 product-word-detail">
+                    <a class="btn btn-default btn-lg btn-block" id="show-evaluate" href="#show-evaluate">累计评论</a>
+                </div>
+                <div> &nbsp;</div>
+                <div class="col-lg-12 product-detal" id="product">
+                    <img src="public/images/1.jpg" alt="" />
+                    <p>OMG团队主要从事行业软件开发、网络平台建设及移动应用开发。OMG会以最诚信的品质，最专业的精神为您服务！</p>
+                </div>
+                <div class="col-lg-12" id="evaluate">
+                    <table class="vertical table table-hover table-striped evaluate-table">
+                        <thead>
+                            <tr>
+                                <td>评价心得</td>
+                                <td>满意度</td>
+                                <td>评论者</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="evaluate-content"><span>非常不错，买的华擎 B85M Pro4 主板，装上一次点亮，威刚4G内存，分给集成显卡1G，运行流畅，用的原装风扇，这次给亲戚买的，机箱、硬盘、显示器都用的旧的，安装win7企业版。现在我这里挺好的，在我这里设置了一个配送点，从西安发货隔日就到货了，主板和CPU等都是纸箱子包装的，配送员态度也不错，说以后售后服务也是上门取货的，很好。</span></td>
+                                <td><div data-score="1" class="star"></div> </td>
+                                <td class="evaluate-name"><p class="evaluate-user-name">哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂</p><p class="evaluate-user-time">2015-06-04 16:56:20</p></td>
+                            </tr>
+                            <tr>
+                                <td class="evaluate-content"><span>非常不错</span></td>
+                                <td><div data-score="3" class="star"></div> </td>
+                                <td class="evaluate-name"><p class="evaluate-user-name">哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂哎呦喂</p><p class="evaluate-user-time">2015-06-04 16:56:20</p></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#evaluate").hide();
+        });
+        $("#show-product").click(function () {
+            $("#evaluate").hide();
+            $("#product").show();
+        });
+        $("#show-evaluate").click(function () {
+            $("#product").hide();
+            $("#evaluate").show();
+        });
+    </script>
+    <script>
+        $.fn.raty.defaults.path = "public/images";
+        $(function () {
+            $(".star").raty({
+                readOnly: true,
+                score: function () {
+                    return $(this).attr('data-score');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
