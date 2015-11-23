@@ -4,7 +4,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .leftArea {
     float: left;
 }
@@ -165,11 +164,12 @@
     top: 35px;
     width: 100%;
     padding-bottom: 1px;
+    overflow: hidden;
 }
 
 /*添加背景色*/
 .shopClass_item {
-    padding: 13px 10px;
+    padding: 13px 10px 12px 10px;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #5aa1fe;
     line-height: 16px;
@@ -238,7 +238,7 @@
 }
 
 .banner_big .imgBox {
-    width: 1620px;
+    width: 3240px;
     height: 326px;
 }
 

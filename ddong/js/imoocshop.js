@@ -4,6 +4,12 @@ $(document).ready(function () {
     $(".ul-index-nav-bar a").attr('href', 'product_class.html')
     $(".shopClass_show a").attr('href', 'product_class.html')
 
+    //点击banner后跳转到筛选页面
+    $(".banner_bar a").click(function () {
+        //.attr('href', 'shop_cart.html')
+        window.location.href = "product_filter.html";
+    });
+
 
     $(".logo").click(function () {
         //.attr('href', 'shop_cart.html')
