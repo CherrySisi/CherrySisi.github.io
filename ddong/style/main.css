@@ -966,6 +966,7 @@
     line-height: 32px;
     text-align: center;
     color: #333;
+    cursor: pointer;
 }
 
 .redution {

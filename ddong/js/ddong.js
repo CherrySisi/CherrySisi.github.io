@@ -71,11 +71,32 @@ $(document).ready(function () {
     });
 
     //选择商品数量
-    $("#redution").click(function(){
-
-        $("#answer").val()+1;
-        console.log( $("#answer").val())
+    $("#redution").click(function () {
+        var values = parseInt($("#answer").val());
+        if (values == 1) {
+            console.log("数量不能少于一喔 " + values);
+            return;
+        }
+        values = values - 1;
+        $("#answer").val(values);
+        //$("#answer").text(values);
+        console.log("redution values" + values);
     });
+    //+1
+    $("#plus").click(function () {
+        //console.log($("#answer").text());
+        //console.log($("#answer").val());
+        var values = parseInt($("#answer").val());
+        if (values == 9) {
+            console.log("限购9件" + values);
+            return;
+        }
+        values = values + 1;
+        $("#answer").val(values);
+        //$("#answer").text(values);
+        console.log("plus values" + values);
+    });
+
 
 
 
