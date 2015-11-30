@@ -4,6 +4,89 @@ $(document).ready(function () {
     $(".ul-index-nav-bar a").attr('href', 'product_class.html')
     $(".shopClass_show a").attr('href', 'product_class.html')
 
+    //下拉选项
+    $(".select").click(function () {
+        
+        $(".show_select").css('display', 'block');
+        $(".show_select li").click(function () {
+            console.log("click ..." + this);
+
+            function clearBackground() {
+                var options = $(".show_select li");
+                for (var i = 0, j = options.length; i < j; i++) {
+                    console.log("clear..." + i);
+                    var item = options[i];
+                    //item.style.
+                    $(item).css('background' ,'');
+                    //先循环把所有的样式清除
+                }
+            }
+
+            clearBackground();
+            $(this).css('background','#ccc');
+            //最后给当前元素加上样式
+        });
+
+    });
+
+    //(商品详情界面中队商品颜色进行选择)设置颜色
+    $("#item_color_select div").click(function () {
+        console.log("click ..." + this);
+
+        function clearColorSelect() {
+            var links = $("#item_color_select div");
+            for (var i = 0, j = links.length; i < j; i++) {
+                console.log("clear..." + i);
+                var item = links[i];
+                //item.style.
+                $(item).removeClass("des_item_active");
+                //先循环把所有的样式清除
+            }
+        }
+
+        clearColorSelect();
+        $(this).addClass("des_item_active");
+        //最后给当前元素加上样式
+    });
+
+    //设置版本
+    $("#item_version_select div").click(function () {
+        console.log("click ..." + this);
+
+        function clearVersionSelect() {
+            var links = $("#item_version_select div");
+            for (var i = 0, j = links.length; i < j; i++) {
+                console.log("clear..." + i);
+                var item = links[i];
+                $(item).removeClass("des_item_active");
+            }
+        }
+
+        clearVersionSelect();
+
+        $(this).addClass("des_item_active");
+
+        //this.addClass("des_item_active");
+
+    });
+
+    //选择商品数量
+    $("#redution").click(function(){
+
+        $("#answer").val()+1;
+        console.log( $("#answer").val())
+    });
+
+
+
+    //页面跳转
+
+    $(".show_select").mouseleave(function () {
+        setTimeout(function(){
+            $(".show_select").css('display', 'none');
+        },200);
+    });
+
     //点击banner后跳转到筛选页面
     $(".banner_bar a").click(function () {
         //.attr('href', 'shop_cart.html')
@@ -70,7 +153,7 @@ $(document).ready(function () {
         window.location.href="shop_cart.html";
     });
 
-//navCont_list
+    //navCont_list
     
     $(".navCont_list a").click(function(){
 
@@ -78,44 +161,38 @@ $(document).ready(function () {
     });
 
 
-    //(商品详情界面中队商品颜色进行选择)设置颜色
-    $("#item_color_select div").click(function () {
-        console.log("click ..." + this);
+    
 
-        function clearColorSelect() {
-            var links = $("#item_color_select div");
-            for (var i = 0, j = links.length; i < j; i++) {
-                console.log("clear..." + i);
-                var item = links[i];
-                //item.style.
-                $(item).removeClass("des_item_active");
-            }
-        }
 
-        clearColorSelect();
-        $(this).addClass("des_item_active");
-    });
+    //注册界面的验证
 
-    //设置版本
-    $("#item_version_select div").click(function () {
-        console.log("click ..." + this);
 
-        function clearVersionSelect() {
-            var links = $("#item_version_select div");
-            for (var i = 0, j = links.length; i < j; i++) {
-                console.log("clear..." + i);
-                var item = links[i];
-                $(item).removeClass("des_item_active");
-            }
-        }
 
-        clearVersionSelect();
 
-        $(this).addClass("des_item_active");
 
-        //this.addClass("des_item_active");
 
-    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });

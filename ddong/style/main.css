@@ -754,6 +754,7 @@
     padding-right: 20px;
     position: relative;
     z-index: 4;
+    cursor:pointer ;
 }
 
 .select h3 {
@@ -777,11 +778,13 @@
     background: #fff;
     width: 100%;
     border: 1px solid #999;
-    display: none;
+    display: none; 
+
 }
 
 .show_select li {
     padding-left: 10px;
+    cursor:pointer ;
 }
 
 /* 产品介绍 */
